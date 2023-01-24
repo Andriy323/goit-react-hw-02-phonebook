@@ -1,0 +1,28 @@
+.form {
+  width: 300px;
+  padding: 20px;
+  display: block;
+}
+
+label {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+input {
+  font-size: 10px;
+  width: 220px;
+  height: 25px;
+}
+
+.btnAdd {
+  margin: 5px 10px;
+  background-color: #09d625ab;
+  color: rgb(0, 0, 0);
+  border-radius: 1px;
+  border-color: #2c0cbbab;
+  width: 80px;
+  height: 40px;
+}

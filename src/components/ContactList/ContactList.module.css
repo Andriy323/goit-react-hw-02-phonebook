@@ -1,0 +1,19 @@
+.btnDelete {
+  cursor: pointer;
+  width: 65px;
+  height: 40px;
+  background-color: rgb(214, 32, 32);
+  font-size: 15px;
+}
+.list {
+  list-style: none;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 15px;
+}
