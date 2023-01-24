@@ -19,7 +19,9 @@ export default class App extends React.Component {
   addContact = ({ name, number }) => {
     this.setState(prevState => {
       const { contacts } = prevState;
-      const inAlert = Boolean(contacts.find(e => e.name === name));
+      const inAlert = Boolean(
+        contacts.find(e => e.name.toUpperCase() === name.toUpperCase())
+      );
       console.log(name, number);
       if (inAlert) return alert(`контакт ${name}  існує`);
       const newContact = {
