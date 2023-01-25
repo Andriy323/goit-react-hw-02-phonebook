@@ -12,10 +12,6 @@ export default class App extends React.Component {
     filter: '',
   };
 
-  idFilter = nanoid();
-  idName = nanoid();
-  idNumber = nanoid();
-
   addInput = e => {};
 
   addContact = ({ name, number }) => {
