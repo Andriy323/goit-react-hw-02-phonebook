@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 const Filter = ({ handleFilter, value }) => {
-  console.log(handleFilter);
   return (
     <div>
       <label>Filter</label>

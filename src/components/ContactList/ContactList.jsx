@@ -30,3 +30,7 @@ ContactList.prototypes = {
   removeContact: PropTypes.func,
   filterContact: PropTypes.arrayOf(PropTypes.object),
 };
+
+ContactList.defaultProps = {
+  filterContact: [],
+};

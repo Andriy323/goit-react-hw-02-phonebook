@@ -1,9 +1,11 @@
 import React from 'react';
 import { nanoid } from 'nanoid/non-secure';
+
 import Filter from './Filter/Filter';
 import ContactForm from './Forms/ContactForms';
 import ContactList from './ContactList/ContactList';
 import css from 'components/App.module.css';
+
 export default class App extends React.Component {
   state = {
     contacts: [],
@@ -22,7 +24,6 @@ export default class App extends React.Component {
       const inAlert = Boolean(
         contacts.find(e => e.name.toUpperCase() === name.toUpperCase())
       );
-      console.log(name, number);
       if (inAlert) return alert(`контакт ${name}  існує`);
       const newContact = {
         name,
